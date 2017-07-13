@@ -1,0 +1,26 @@
+{
+  "name": "typescript-cli-starter",
+  "version": "0.0.1",
+  "description": "A command line interface template for typescript",
+  "main": "./build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc -p ."
+  },
+  "author": "Kaiyin Zhong <kindlychung@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "@types/yargs": "^8.0.1",
+    "yargs": "^8.0.2"
+  },
+  "repository": {
+    "url": "git@github.com:kindlychung/typescript-cli-starter.git"
+  },
+  "bin": {
+    "mesh-cli": "./build/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.6"
+  }
+}
